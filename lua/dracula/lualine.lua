@@ -8,39 +8,39 @@ function M.get(style)
 
   hl.normal = {
     a = { bg = colors.purple, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.purple },
+    b = { bg = colors.selection, fg = colors.purple },
     c = { bg = colors.statusline, fg = colors.dark_fg },
   }
 
   hl.insert = {
     a = { bg = colors.green, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.green },
+    b = { bg = colors.selection, fg = colors.green },
   }
 
   hl.command = {
     a = { bg = colors.yellow, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.yellow },
+    b = { bg = colors.selection, fg = colors.yellow },
   }
 
   hl.visual = {
     a = { bg = colors.pink, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.pink },
+    b = { bg = colors.selection, fg = colors.pink },
   }
 
   hl.replace = {
     a = { bg = colors.red, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.red },
+    b = { bg = colors.selection, fg = colors.red },
   }
 
   hl.terminal = {
     a = { bg = colors.cyan, fg = colors.black },
-    b = { bg = colors.statusline, fg = colors.cyan },
+    b = { bg = colors.selection, fg = colors.cyan },
   }
 
   hl.inactive = {
     a = { bg = colors.statusline, fg = colors.purple },
-    b = { bg = colors.statusline, fg = colors.dark_fg, gui = "bold" },
-    c = { bg = colors.statusline, fg = colors.dark_fg },
+    b = { bg = colors.statusline, fg = colors.comment, gui = "bold" },
+    c = { bg = colors.statusline, fg = colors.comment },
   }
 
   if opts.lualine_bold then
