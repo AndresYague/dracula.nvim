@@ -1,6 +1,6 @@
 local M = {}
 
-M.version = "3.0.0"
+M.version = "3.1.0"
 
 ---@class DraculaConfig
 ---@field style? DraculaStyle
