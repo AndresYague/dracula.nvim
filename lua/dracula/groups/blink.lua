@@ -20,6 +20,24 @@ function M.get(c)
     BlinkCmpMenuBorder = { fg = c.border, bg = c.float_bg },
     BlinkCmpSignatureHelp = { fg = c.fg, bg = c.float_bg },
     BlinkCmpSignatureHelpBorder = { fg = c.border, bg = c.float_bg },
+
+    -- blink.indent
+    BlinkIndent = { link = "Whitespace" },
+    BlinkIndentScope = { fg = c.purple },
+    BlinkIndentRed = { fg = c.red },
+    BlinkIndentOrange = { fg = c.orange },
+    BlinkIndentYellow = { fg = c.yellow },
+    BlinkIndentGreen = { fg = c.green },
+    BlinkIndentCyan = { fg = c.cyan },
+    BlinkIndentBlue = { fg = c.cyan },
+    BlinkIndentViolet = { fg = c.purple },
+
+    -- blink.pairs
+    BlinkPairsOrange = { fg = c.orange },
+    BlinkPairsPurple = { fg = c.purple },
+    BlinkPairsBlue = { fg = c.cyan },
+    BlinkPairsUnmatched = { fg = c.red },
+    BlinkPairsMatchParen = { fg = c.yellow, bold = true },
   }
 
   require("dracula.groups.kinds").kinds(ret, "BlinkCmpKind%s")
