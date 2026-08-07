@@ -26,6 +26,7 @@ M.plugins = {
   ["lazy.nvim"] = "lazy",
   ["leap.nvim"] = "leap",
   ["lspsaga.nvim"] = "lspsaga",
+  ["markview.nvim"] = "markview",
   ["mason.nvim"] = "mason",
   ["mini.animate"] = "mini_animate",
   ["mini.clue"] = "mini_clue",
